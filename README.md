@@ -5,6 +5,7 @@ A compiler design lab project developed using **Flex**, **Bison/YACC**, and **C 
 This project demonstrates:
 
 -Lexical Analysis
+
 -Syntax Analysis
 -Parsing
 -Symbol Table Generation
