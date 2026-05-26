@@ -39,14 +39,21 @@ This project demonstrates:
 text
 Mini_Compiler_Updated/
 ├── lexer.l
+
 ├── parser.y
+
 ├── input.txt
+
 ├── input2.txt
+
 ├── README.md
+
 ├── LICENSE
+
 ├── .gitignore
+
 ├── compiler
-└── screenshots/
+
 
 
 
