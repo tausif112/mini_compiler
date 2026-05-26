@@ -155,11 +155,17 @@ c
 This project helped in understanding:
 
 Compiler phases
+
 Lexical analysis
+
 Syntax parsing
+
 Symbol table management
+
 Flex and Bison integration
+
 Basic compiler workflow
+
 Linux-based compiler development
 
 ---
