@@ -13,7 +13,7 @@ Compilation Workflow
 
 ---
 
-# 🛠 Technologies Used
+## 🛠 Technologies Used
 
 C Programming
 Flex (Lex)
@@ -24,7 +24,7 @@ Oracle VirtualBox
 
 ---
 
-# 📁 Project Structure
+## 📁 Project Structure
 
 text
 Mini_Compiler_Updated/
@@ -33,13 +33,18 @@ Mini_Compiler_Updated/
 ├── input.txt
 ├── input2.txt
 ├── README.md
-└── compiler
+├── LICENSE
+├── .gitignore
+├── compiler
+└── screenshots/
 
 
 
 ---
 
-# ⚙️ Installation
+## ⚙️ Installation
+
+Install required packages:
 
 
 bash
@@ -50,7 +55,9 @@ sudo apt install flex bison gcc make git -y
 
 ---
 
-# ▶️ Build Instructions
+## ▶️ Build Instructions
+
+Compile the project using:
 
 
 bash
@@ -62,9 +69,9 @@ gcc lex.yy.c parser.tab.c -o compiler -lfl
 
 ---
 
-# ▶️ Run Instructions
+## ▶️ Run Instructions
 
-Run first input:
+Run first input file:
 
 
 bash
@@ -72,7 +79,7 @@ bash
 
 
 
-Run second input:
+Run second input file:
 
 
 bash
@@ -82,7 +89,7 @@ bash
 
 ---
 
-# 🧪 Sample Input
+## 🧪 Sample Input
 
 
 c
@@ -108,7 +115,7 @@ if (a > 5) {
 
 ---
 
-# 📚 Supported Language Elements
+## 📚 Supported Language Elements
 
 | Type | Supported |
 |------|------------|
@@ -121,20 +128,21 @@ if (a > 5) {
 
 ---
 
-# 🎯 Learning Outcomes
+## 🎯 Learning Outcomes
 
 This project helped in understanding:
 
 Compiler phases
 Lexical analysis
-Parsing techniques
-Symbol tables
+Syntax parsing
+Symbol table management
 Flex and Bison integration
 Basic compiler workflow
+Linux-based compiler development
 
 ---
 
-# 👨‍💻 Author
+## 👨‍💻 Author
 
 **Md. Tausif Uddin**  
 Department of Computer Science & Engineering  
@@ -142,6 +150,6 @@ University of Asia Pacific
 
 ---
 
-# 📜 License
+## 📜 License
 
 This project is licensed under the MIT License.
