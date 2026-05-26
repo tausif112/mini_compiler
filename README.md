@@ -38,6 +38,7 @@ This project demonstrates:
 
 text
 Mini_Compiler_Updated/
+
 ├── lexer.l
 
 ├── parser.y
@@ -64,10 +65,11 @@ Mini_Compiler_Updated/
 Install required packages:
 
 
-bash
-sudo apt update
-sudo apt install flex bison gcc make git -y
+-bash
 
+-sudo apt update
+
+-sudo apt install flex bison gcc make git -y
 
 
 ---
@@ -78,10 +80,12 @@ Compile the project using:
 
 
 bash
-flex lexer.l
-bison -d parser.y
-gcc lex.yy.c parser.tab.c -o compiler -lfl
 
+flex lexer.l
+
+bison -d parser.y
+
+gcc lex.yy.c parser.tab.c -o compiler -lfl
 
 
 ---
