@@ -1,0 +1,18 @@
+# Generated Flex/Bison files
+lex.yy.c
+parser.tab.c
+parser.tab.h
+
+# Compiled output
+compiler
+minicompiler
+*.out
+*.o
+
+# Editor files
+.vscode/
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
