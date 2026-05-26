@@ -11,19 +11,26 @@ This project demonstrates:
 -Parsing 
 
 -Symbol Table Generation 
+
 -Intermediate Instructions 
+
 -Compilation Workflow 
 
 ---
 
 ## 🛠 Technologies Used
 
-C Programming
-Flex (Lex)
-Bison (YACC)
-GCC Compiler
-Ubuntu 24.04
-Oracle VirtualBox
+-C Programming
+
+-Flex (Lex)
+
+-Bison (YACC)
+
+-GCC Compiler
+
+-Ubuntu 24.04
+
+-Oracle VirtualBox
 
 ---
 
