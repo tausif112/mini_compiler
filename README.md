@@ -3,6 +3,7 @@
 A compiler design lab project developed using **Flex**, **Bison/YACC**, and **C programming** on **Ubuntu 24.04 (Oracle VirtualBox)**.
 
 This project demonstrates:
+
 Lexical Analysis
 Syntax Analysis
 Parsing
@@ -90,12 +91,15 @@ int a;
 a = 10;
 
 if (a > 5) {
+
     int b;
     b = a + 2;
 
     while (b > 0) {
+
         int c;
         c = b - 1;
+
         b = b - 1;
     }
 }
@@ -107,7 +111,7 @@ if (a > 5) {
 # 📚 Supported Language Elements
 
 | Type | Supported |
-|---|---|
+|------|------------|
 | Data Types | int, float |
 | Control Statements | if, else, while |
 | Operators | +, -, *, / |
@@ -117,23 +121,10 @@ if (a > 5) {
 
 ---
 
-# 📸 Screenshots
-
-Add compiler screenshots here later.
-
-Example:
-
-
-markdown
-![Compiler Output](screenshots/compiler_output.png)
-
-
-
----
-
 # 🎯 Learning Outcomes
 
 This project helped in understanding:
+
 Compiler phases
 Lexical analysis
 Parsing techniques
@@ -146,11 +137,11 @@ Basic compiler workflow
 # 👨‍💻 Author
 
 **Md. Tausif Uddin**  
-Department of CSE  
+Department of Computer Science & Engineering  
 University of Asia Pacific
 
 ---
 
 # 📜 License
 
-MIT License
+This project is licensed under the MIT License.
