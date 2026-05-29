@@ -1,11 +1,13 @@
 # 🔧 Mini Compiler using Flex & Bison
-
+<div align="center">
+     
 ![Language](https://img.shields.io/badge/Language-C-blue)
 ![Flex](https://img.shields.io/badge/Flex-Lexical%20Analyzer-green)
 ![Bison](https://img.shields.io/badge/Bison-Parser-orange)
 ![Platform](https://img.shields.io/badge/Platform-Ubuntu%2024.04-red)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 
+</div>
 A lightweight **Mini Compiler** built using **Flex (Lex)**, **Bison (YACC)**, and **C**. The project demonstrates the fundamental phases of compiler construction, including lexical analysis, syntax analysis, parsing, symbol table generation, and intermediate instruction generation.
 
 ---
