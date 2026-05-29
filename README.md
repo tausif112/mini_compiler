@@ -1,125 +1,137 @@
 # 🔧 Mini Compiler using Flex & Bison
 
-A compiler design lab project developed using **Flex**, **Bison/YACC**, and **C programming** on **Ubuntu 24.04 (Oracle VirtualBox)**.
+![Language](https://img.shields.io/badge/Language-C-blue)
+![Flex](https://img.shields.io/badge/Flex-Lexical%20Analyzer-green)
+![Bison](https://img.shields.io/badge/Bison-Parser-orange)
+![Platform](https://img.shields.io/badge/Platform-Ubuntu%2024.04-red)
+![License](https://img.shields.io/badge/License-MIT-yellow)
 
-This project demonstrates:
+A lightweight **Mini Compiler** built using **Flex (Lex)**, **Bison (YACC)**, and **C**. The project demonstrates the fundamental phases of compiler construction, including lexical analysis, syntax analysis, parsing, symbol table generation, and intermediate instruction generation.
 
--Lexical Analysis
+---
 
--Syntax Analysis 
+## 🚀 Features
 
--Parsing 
+* ✅ Lexical Analysis using Flex
+* ✅ Syntax Analysis using Bison
+* ✅ Token Recognition
+* ✅ Parsing and Grammar Validation
+* ✅ Symbol Table Generation
+* ✅ Intermediate Instruction Generation
+* ✅ Error Detection and Reporting
+* ✅ Command-Line Based Compiler Workflow
 
--Symbol Table Generation 
+---
 
--Intermediate Instructions 
+## 🏗 Compiler Architecture
 
--Compilation Workflow 
+```text
+Source Code
+     │
+     ▼
+Lexical Analyzer (Flex)
+     │
+     ▼
+Token Stream
+     │
+     ▼
+Parser (Bison)
+     │
+     ▼
+Syntax Tree / Validation
+     │
+     ▼
+Symbol Table Generation
+     │
+     ▼
+Intermediate Instructions
+```
 
 ---
 
 ## 🛠 Technologies Used
 
--C Programming
-
--Flex (Lex)
-
--Bison (YACC)
-
--GCC Compiler
-
--Ubuntu 24.04
-
--Oracle VirtualBox
+| Technology        | Purpose                   |
+| ----------------- | ------------------------- |
+| C                 | Core Implementation       |
+| Flex (Lex)        | Lexical Analysis          |
+| Bison (YACC)      | Syntax Analysis & Parsing |
+| GCC               | Compilation               |
+| Ubuntu 24.04      | Development Environment   |
+| Oracle VirtualBox | Virtualized Environment   |
+| Git & GitHub      | Version Control           |
 
 ---
 
-## 📁 Project Structure
+## 📂 Project Structure
 
-text
-Mini_Compiler_Updated/
-
+```text
+mini_compiler/
+│
 ├── lexer.l
-
 ├── parser.y
-
 ├── input.txt
-
 ├── input2.txt
-
-├── README.md
-
-├── LICENSE
-
-├── .gitignore
-
 ├── compiler
-
-
-
+├── README.md
+├── LICENSE
+└── .gitignore
+```
 
 ---
 
 ## ⚙️ Installation
 
-Install required packages:
+### Install Required Packages
 
-
--bash
-
--sudo apt update
-
--sudo apt install flex bison gcc make git -y
-
+```bash
+sudo apt update
+sudo apt install flex bison gcc make git -y
+```
 
 ---
 
-## ▶️ Build Instructions
+## 🔨 Build Instructions
 
-Compile the project using:
+Generate lexer and parser files:
 
-
-bash
-
+```bash
 flex lexer.l
-
 bison -d parser.y
+```
 
+Compile the compiler:
+
+```bash
 gcc lex.yy.c parser.tab.c -o compiler -lfl
-
+```
 
 ---
 
-## ▶️ Run Instructions
+## ▶️ Running the Compiler
 
-Run first input file:
+### Test Input 1
 
-
-bash
+```bash
 ./compiler < input.txt
+```
 
+### Test Input 2
 
-
-Run second input file:
-
-
-bash
+```bash
 ./compiler < input2.txt
-
-
+```
 
 ---
 
-## 🧪 Sample Input
+## 🧪 Sample Source Code
 
+```c
+int a;
 
-c
+a = 10;
 
-    int a;
-
-    a = 10;
-
-    if (a > 5) {
+if (a > 5) {
 
     int b;
     b = a + 2;
@@ -130,43 +142,59 @@ c
         c = b - 1;
 
         b = b - 1;
-      }
     }
-
-
+}
+```
 
 ---
 
 ## 📚 Supported Language Elements
 
-| Type | Supported |
-|------|------------|
-| Data Types | int, float |
-| Control Statements | if, else, while |
-| Operators | +, -, *, / |
-| Relational Operators | ==, !=, <, >, <=, >= |
-| Brackets | (), {} |
-| Statement Ending | ; |
+| Category               | Supported Elements   |
+| ---------------------- | -------------------- |
+| Data Types             | int, float           |
+| Conditional Statements | if, else             |
+| Loops                  | while                |
+| Arithmetic Operators   | +, -, *, /           |
+| Relational Operators   | ==, !=, <, >, <=, >= |
+| Delimiters             | ;                    |
+| Brackets               | (), {}               |
+| Variable Declarations  | Supported            |
+| Assignments            | Supported            |
 
 ---
 
-## 🎯 Learning Outcomes
+## 📈 Learning Outcomes
 
-This project helped in understanding:
+Through this project, the following compiler design concepts were explored:
 
-Compiler phases
+* Compiler Construction Fundamentals
+* Lexical Analysis
+* Syntax Analysis
+* Parsing Techniques
+* Context-Free Grammars
+* Symbol Table Management
+* Intermediate Code Representation
+* Flex & Bison Integration
+* Linux-Based Development Workflow
 
-Lexical analysis
+---
 
-Syntax parsing
+## 🎓 Academic Relevance
 
-Symbol table management
+This project was developed as part of Compiler Design coursework and serves as a practical demonstration of how programming language source code is analyzed and processed during compilation.
 
-Flex and Bison integration
+---
 
-Basic compiler workflow
+## 🔮 Future Improvements
 
-Linux-based compiler development
+* Semantic Analysis
+* Abstract Syntax Tree (AST) Generation
+* Type Checking
+* Optimization Passes
+* Three-Address Code Generation
+* Assembly Code Generation
+* Enhanced Error Recovery
 
 ---
 
@@ -176,8 +204,13 @@ Linux-based compiler development
 Department of Computer Science & Engineering  
 University of Asia Pacific
 
+GitHub: **@tausif112**
+
 ---
 
 ## 📜 License
 
 This project is licensed under the MIT License.
+
+
+
