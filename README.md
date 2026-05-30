@@ -202,11 +202,13 @@ This project was developed as part of Compiler Design coursework and serves as a
 
 ## 👨‍💻 Author
 
-**Md. Tausif Uddin**  
-Department of Computer Science & Engineering  
-University of Asia Pacific
+### Md Tausif Uddin
 
-GitHub: **@tausif112**
+Department of Computer Science & Engineering (CSE)  
+University of Asia Pacific (UAP)
+
+GitHub: https://github.com/tausif112
+
 
 ---
 
